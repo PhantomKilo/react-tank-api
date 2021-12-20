@@ -1,13 +1,18 @@
+* {
+  margin: 0;
+}
+
 .App {
   text-align: center;
-}
-
-.nav-link {
   background-color: black;
-  color: #008C00;
 }
 
-.nav-link:hover {
-  background-color: #008C00;
+.nav-text, .nav-link {
+  color: #008C00;
+  background-color: black;
+}
+
+.nav-text:hover, .nav-link:hover {
   color: black;
+  background-color: #008C00;
 }

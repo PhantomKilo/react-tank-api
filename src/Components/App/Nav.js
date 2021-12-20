@@ -5,24 +5,24 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
-    <Navbar className="nav-bar" bg="light" expand="md">
+    <Navbar className="nav-bar" bg="black" expand="md">
       <Container>
         <Navbar.Brand>
-          <Link to="#">
-            Tank API
+          <Link to="/tank/home" className="nav-link" style={{textDecoration: "none"}}>
+            <span className="nav-text">Tank API</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Link className="nav-link" to="#">
-              Home
+            <Link className="nav-link" to="tank/home">
+              <sapn className="nav-text">Home</sapn>
             </Link>
             <Link className="nav-link" to="/tank/tank-api">
-              Tanks
+              <span className="nav-text">Tanks</span>
             </Link>
             <Link className="nav-link" to="#">
-              General Tank Stuff
+              <span className="nav-text">General Tank Stuff</span>
             </Link>
           </Nav>
         </Navbar.Collapse>

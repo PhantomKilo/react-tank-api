@@ -10,7 +10,7 @@ const Tanks = (props) => {
     const tankList = tanks.map((tank) => {
         return(
             <Col sm={6} md={4} lg={3}>
-                <Card border="success">
+                <Card border="success" bg="black">
                     <Card.Title>{tank.model}</Card.Title>    
                 </Card>            
             </Col>        

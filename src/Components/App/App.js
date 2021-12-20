@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/row";
 import Col from "react-bootstrap/Col";
 
+import Home from "../Home/Home";
 import TankDetails from "../TankDetails/TankDetails";
 import Tanks from "../Tanks/Tanks";
 import About from "../About/About";
@@ -31,10 +32,11 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div bg="dark">
       <NavBar />
       <Container>
         <Routes>
+          <Route exact path="/tank/home" element={<Home />} />
           <Route exact path="/tank/about" element={<About />} />
           <Route
             exact
