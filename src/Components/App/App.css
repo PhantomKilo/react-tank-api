@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.nav-link {
+  background-color: black;
+  color: #008C00;
+}
+
+.nav-link:hover {
+  background-color: #008C00;
+  color: black;
+}
