@@ -16,7 +16,7 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Link className="nav-link" to="tank/home">
-              <sapn className="nav-text">Home</sapn>
+              <span className="nav-text">Home</span>
             </Link>
             <Link className="nav-link" to="/tank/tank-api">
               <span className="nav-text">Tanks</span>
