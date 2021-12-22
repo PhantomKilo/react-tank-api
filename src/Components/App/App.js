@@ -10,12 +10,12 @@ import Home from "../Home/Home";
 import TankDetails from "../TankDetails/TankDetails";
 import Tanks from "../Tanks/Tanks";
 import About from "../About/About";
+import TankStuff from "../TankStuff/TankStuff";
 import NavBar from "./Nav";
 
 function App() {
   const url = "http://localhost:4000/tank";
-  const [tanks, setTanks] = useState([]);
-  
+  const [tanks, setTanks] = useState([]);  
   const [tankDetails, setTankDetails] = useState({});
 
   const makeApiCall = (url) => {
@@ -45,11 +45,22 @@ function App() {
             element={
               <Tanks
                 tanks={tanks}
+                tankDetails={tankDetails}
                 setTankDetails={setTankDetails}
-                makeApiCall={makeApiCall}
               />
             }
           />
+          <Route 
+            exact
+            path={`/tank/tank-api/${tankDetails.model}`}
+            element={
+              <TankDetails 
+                tankDetails={tankDetails}
+                setTankDetails={setTankDetails}
+              />
+            }
+            />
+          <Route exact path="/tank/tank-stuff" element={<TankStuff />} />
         </Routes>
       </Container>
     </div>
