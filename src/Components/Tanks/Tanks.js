@@ -32,7 +32,7 @@ const Tanks = (props) => {
 
   const tankList = tanks.map((tank) => {
     const handleClick = (id) => {
-      const url = `http://localhost:4000/tank/${id}`;
+      const url = `https://tank-api-database.herokuapp.com/tank//${id}`;
       console.log(url);
       makeTankCall(url);
     };

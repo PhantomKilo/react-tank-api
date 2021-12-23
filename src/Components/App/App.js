@@ -14,7 +14,7 @@ import TankStuff from "../TankStuff/TankStuff";
 import NavBar from "./Nav";
 
 function App() {
-  const url = "http://localhost:4000/tank";
+  const url = "https://tank-api-database.herokuapp.com/tank/";
   const [tanks, setTanks] = useState([]);  
   const [tankDetails, setTankDetails] = useState({});
 
