@@ -18,7 +18,13 @@ const NavBar = () => {
             <Link className="nav-link" to="/tank/tank-api">
               <span className="nav-text">Tanks</span>
             </Link>
-            <Link className="nav-link" to="tank/tank-stuff">
+            <Link className="nav-link" to="/tank/apc-api">
+              <span className="nav-text">APCs</span>
+            </Link>
+            <Link className="nav-link" to="/tank/ifv-api">
+              <span className="nav-text">IFVs</span>
+            </Link>
+            <Link className="nav-link" to="tank/tank-stuff/*">
               <span className="nav-text">General Abrams Stuff</span>
             </Link>
             <Link className="nav-link" to="tank/about">

@@ -19,10 +19,6 @@ const TankDetails = (props) => {
     );
   });
 
-  //   const handleReset = () => {
-  //       setTank({})
-  //   }
-
   return (
     <Container>
       <Row>
@@ -32,9 +28,6 @@ const TankDetails = (props) => {
         <Col>
           <h2>{tank.main}</h2>
         </Col>
-        {/* <Col>
-            <button onClick={handleReset}>reset</button>
-        </Col> */}
       </Row>
       <Row>{images}</Row>
     </Container>

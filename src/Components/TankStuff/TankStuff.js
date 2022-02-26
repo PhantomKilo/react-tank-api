@@ -1,42 +1,20 @@
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
+import { Route, Routes } from "react-router-dom";
 import Container from "react-bootstrap/Container";
-import "./TankStuff.css"
+import "./TankStuff.css";
+import NavBar from "./StuffNav";
+import GeneralInfo from "./SubTankStuff/GeneralInfo";
+import Loading from "./SubTankStuff/Loading";
+import Gunnery from "./SubTankStuff/Gunnery";
 
 const TankStuff = () => {
   return (
     <Container>
-      <Row>
-        <Col sm={12} md={6}>
-          <Card bg="black">
-            <Card.Title>
-              <h3>Abrams stuck in mud</h3>
-            </Card.Title>
-            <Card.Body>
-              <iframe
-                className="responsive-iframes"
-                src="https://www.youtube.com/embed/TCXwgPZXScM"
-                allowFullScreen
-              />
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col sm={12} md={6}>
-        <Card bg="black">
-            <Card.Title>
-              <h3>Loading the main gun</h3>
-            </Card.Title>
-            <Card.Body>
-              <iframe
-                className="responsive-iframes"
-                src="https://www.youtube.com/embed/eETvj6bIpuA"
-                allowFullScreen
-              />
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
+      <NavBar />
+      <Routes>
+        <Route exact path="/*" element={<GeneralInfo />} />
+        <Route exact path="/loading" element={<Loading />} />
+        <Route exact path="/gunnery" element={<Gunnery />} />
+      </Routes>
     </Container>
   );
 };
