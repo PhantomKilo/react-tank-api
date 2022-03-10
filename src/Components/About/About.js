@@ -8,24 +8,27 @@ const About = () => {
         <Container>
             <Row>
                 <Col>
-                <Card>
+                <Card bg="black">
                     <Card.Title></Card.Title>
+                    <Card.Body>
+                        
+                    </Card.Body>
                 </Card>
                 </Col>
                 <Col>
-                 <Card>
+                 <Card bg="black">
                     <Card.Title></Card.Title>
                  </Card>
                 </Col>
             </Row>
             <Row>
                 <Col>
-                <Card>
+                <Card bg="black">
                     <Card.Title></Card.Title>
                 </Card>
                 </Col>
                 <Col>
-                <Card>
+                <Card bg="black">
                     <Card.Title></Card.Title>
                 </Card>
                 </Col>
