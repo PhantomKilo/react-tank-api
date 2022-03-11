@@ -9,29 +9,36 @@ const Home = () => {
     <Container>
       <Row>
         <Col>
-          <Card>
+          <Card bg="black">
             <Card.Title>The Why Behind the Project</Card.Title>
             <Card.Body>
-              
+              It came to my attention that there didn't seem to be an API for
+              modern armored fighting vehicles (AFVs). So, I set out to make my
+              own. I originally set out to make a database focused on tanks, but
+              seemed too limited. I them revamped it to include both IFVs and
+              APCs, and will probably have other vehicles (such as
+              self-propelled atillery and anti-aircraft platforms) added in the
+              future. Throwing in some other knowledge, like the history of
+              AFVs, fire commands and the great debate of manual vs auto loading
+              for tank guns to round it out. 
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card>
-            <Card.Tite>*** Disclaimer ***</Card.Tite>
+          <Card bg="black">
+            <Card.Title>*** Disclaimer ***</Card.Title>
             <Card.Body>
-              Every bit of info, all the vehicle stats, numbers, "official"
-              release documentation, is the unclassified version. Many of the
-              modern vehicles to be added are technically in service, but
-              finding info on how many or where is difficult. I've been in units
-              with the most up to date equipment, only to have it taken and sent
-              somewhere else, leaving us with older hardware. Foreign hardware
-              is even harder to track down, because my info is based on what is
-              publicly available. That means, like with the Russian military,
-              certain modern hardware might exist only on paper or a parade
-              ground. The Russian invasion of Ukraine in early 2022 only
-              comfirmed that most of what is available is inaccurate, outdated
-              or outright propaganda.
+              Due to recent events (as of early 2022 with the Russian invasion
+              of Ukraine), I feel it's neccassary to clarify about any info
+              here. Militaries typically don't advertise their modern hardware
+              or technical specs, so most publicly avaiable info is of the
+              unclassified, outdated or propaganda (propagandic?) nature.
+              Because of this, while an AFV listed here (T90M for example)
+              exists, that does not mean it is deployed to active units, only
+              being seen on parade grounds or PR photoshoots. The point is very
+              few people know the reality of what is actually avaiable and ready
+              to be used in front line actions, so take most things here with a
+              grain of salt.
             </Card.Body>
           </Card>
         </Col>
