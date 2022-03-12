@@ -1,33 +1,25 @@
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/row";
+import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import PageHeader from "react-bootstrap/PageHeader";
+// import PageHeader from "react-bootstrap/PageHeader";
 import "./Home.css";
 
 const Home = () => {
   return (
     <Container>
       <Row>
-        <Col>
-          <PageHeader>Armored Fighting Vehicle API / General Guide</PageHeader>
-        </Col>
-        <Col>
-          <PageHeader>
-            <small>includes other related armored vehicles as well</small>
-          </PageHeader>
-        </Col>
+        <h1>Armored Fighting Vehicle API / General Info Guide</h1>
+      </Row>
+      <Row>
+        <h2>Including Other Related Armored Vehicles</h2>
       </Row>
       <Row>
         <Col sm={12} md={6}>
-          <Card bg="black">
-
-          </Card>
+          <Card bg="black"></Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card bg="black">
-
-          </Card>
+          <Card bg="black"></Card>
         </Col>
       </Row>
     </Container>
