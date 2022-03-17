@@ -52,9 +52,10 @@ const TankDetails = (props) => {
       <Stack gap={5}>
         <Row>
           <Col>
-            <h1>AFV: {tank.model}</h1>
-            <br />
+            <h1>AFV: {tank.model}</h1>          
+            <h2>{tank.description}</h2>            
             <h2>Country: {tank.country}</h2>
+            <h2>Entered Service: {tank.enteredService}</h2>
           </Col>
         </Row>
         <Row>
