@@ -25,7 +25,7 @@ const NavBar = () => {
               <span className="nav-text">IFVs</span>
             </Link>
             <Link className="nav-link" to="tank/tank-stuff/*">
-              <span className="nav-text">General Abrams Stuff</span>
+              <span className="nav-text">General AFV Stuff</span>
             </Link>
             <Link className="nav-link" to="tank/about">
               <span className="nav-text">About App</span>
