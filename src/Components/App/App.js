@@ -14,6 +14,7 @@ import Tanks from "../Tanks/Tanks";
 import About from "../About/About";
 import TankStuff from "../TankStuff/TankStuff";
 import NavBar from "./Nav";
+import Ukraine from "../Ukraine/Ukraine";
 
 function App() {
   const tankUrl = "https://tank-api-database.herokuapp.com/tank/";
