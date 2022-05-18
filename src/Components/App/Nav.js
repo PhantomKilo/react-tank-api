@@ -30,6 +30,9 @@ const NavBar = () => {
             <Link className="nav-link" to="tank/about">
               <span className="nav-text">About App</span>
             </Link>
+            <Link className="nav-link" to="tank/ukraine">
+              <span className="nav-text">Ukraine War</span>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

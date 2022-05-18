@@ -135,6 +135,7 @@ function App() {
           />
           <Route exact path="/tank/tank-stuff/*" element={<TankStuff />} />
           <Route exact path="/tank/about" element={<About />} />
+          <Route exact path="/tank/ukraine/*" element={<Ukraine />} />
         </Routes>
       </Container>
     </Container>
