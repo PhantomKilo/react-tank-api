@@ -44,13 +44,26 @@ const Precursor = () => {
     </Row>
     <Row>
       <Col>
-        <h2>Azerbaijani organization and equipment</h2>
+        <h2>Azerbaijani side</h2>
         <p>
-            
+          Following the first Nagorno-Karabakh war, which saw Azerbaijan lose
+          territory without much ability to compete, a real effort to modernize
+          was undertaken to eventualy take back their land. With heavy
+          investments in new technology such as drones on the hardware end, and
+          updating their doctrine and force structure to match a more fluid
+          organization, so as to adapt faster to a changing reality. The focus
+          was on being light and mobile, a change from the wide front of Soviet
+          times. This allowed Azerbaijani forces to out maneuver Armenian
+          forces. The use of drones allowed accurate artillery fire and direct
+          strikes with little delay, as well as the recon benefits. Azerbaijan
+          enjoyed a large amount of foreign support, getting large amounts of
+          their drones from Turkey (with rumors of Turkey directly piloting the
+          TB2s) and Syrian mercenaries. Just the important base info at this
+          time.
         </p>
       </Col>
       <Col>
-        <h2>Armenian organization and equipment</h2>
+        <h2>Armenian side</h2>
         <p>
           Armenia's military was based around old Soviet doctrine and equipment.
           The country enjoyed an advantage over their Azerbaijani neighbors in
@@ -62,16 +75,25 @@ const Precursor = () => {
           heavier, mechanized forces with large concentration of tanks, mostly
           T-72s. Air defense systems were limited to older, shorter range
           platforms due to deploying most of their modern platforms along their
-          northern border.
+          northern border. Armenia was also isolated in ways from the world, not
+          getting the foreign support that Azerbaijon was able to get. There are
+          more indepth views of Armenian weaknesses so I will just stick with
+          the most important stuff.
         </p>
       </Col>
     </Row>
     <Row>
       <Col>
         <h2>Use of technology</h2>
+        <p>
+          The heavy use of drones by the Azerbaijani side was a major factor,
+          being able to pretty much see and hit much of the Armenian forces
+          before ground contact. 
+        </p>
       </Col>
       <Col>
         <h2>Information warfare</h2>
+        <p></p>
       </Col>
     </Row>
   </>;

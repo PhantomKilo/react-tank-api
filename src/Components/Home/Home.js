@@ -19,22 +19,35 @@ const Home = () => {
           <Card bg="black">
             <Card.Title>*** So, Russia invaded Ukraine ***</Card.Title>
             <Card.Text>
-              Originally when I decided to put this little project together the
-              goal was to focus on modern weapon systems and next gen stuff
-              being adopted in the near future. Seeing images of 70s era armored
-              vehicles and a complete lack of basic logistics by the Russian
-              army has completely turned my understanding (and most others who
-              follow this, don't let them lie) of the situation on its head. I
-              didn't want to put focus on modern conflicts due to the "fog of
-              war" involved making hard to get any real info that isn't
-              propaganda. I might try with Ukraine though, being the first time
-              in decades that two "modern" militaries are colliding, so I'll see
-              what I can do.
+              Originally, this project was to be a basic info website about
+              general armored warfare and history. The invasion of Ukraine by
+              Russia has changed that plan, being the first time a near peer war
+              has been fought on this scale in decades. So, I'm going to try and
+              collect info from various military analyists to get a somewhat
+              accurate picture of the future of combined arms warfare. The major
+              difficulty keeping track of a current war is that things can
+              change dramatically in unpredictable ways. Add the info war
+              covering up major areas such as casualty numbers and equipment
+              losses. Twitter and other social media sites are being used to
+              shape the narrative, which has been done for years, but not on an
+              international stage like Ukraine has managed to do. All this being
+              said, the reality of the war wil not be known for a few years.
             </Card.Text>
           </Card>
         </Col>
         <Col sm={12} md={6}>
-          <Card bg="black"></Card>
+          <Card bg="black">
+            <Card.Title>The Other Content</Card.Title>
+            <Card.Text>
+              The non Ukraine related content, history, basic flash card info of
+              vehicles, and general AFV info will be filled out. I want to build
+              a somewhat self contained info source about AFVs in warfare. This
+              topic is pretty deep, and there are a few different viewpoints, so
+              this is intended more as a launch point to dive into more detailed
+              sources, especially concerning such topics as the doctrine of
+              other countries. 
+            </Card.Text>
+          </Card>
         </Col>
       </Row>
     </Container>
