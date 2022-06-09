@@ -95,7 +95,16 @@ const Precursor = () => {
         </Col>
         <Col>
           <h2>Information warfare</h2>
-          <p></p>
+          <p>
+            Both Armenia and Azerbaijan took to social media to grab support and
+            crush the opposition. Once again, Azerbaijan jumped ahead to take
+            control of the cyber realm. Supported by Turkey, with bot farms in
+            many different countries, they dominated the narrative. Bot farms
+            were used to downvote, hack and overwhelm pro-Armenian social media
+            accounts, drowning them out. Armenia, being completely reliant on
+            old soviet doctrine and unable to adapt, was left completely
+            defenseless against this newish aspect of warfare. 
+          </p>
         </Col>
       </Row>
     </>
