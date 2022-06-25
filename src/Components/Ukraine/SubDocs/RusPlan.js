@@ -97,16 +97,18 @@ const RusPlan = () => {
             move in, before their own troops. Russian troops selling their fuel
             in Belorus, failing to train properly, lying about readiness levels
             and personnel numbers, and stealing new equiment (body armor, spare
-            parts, etc.) to sell fo extra money for themselves. Part of the
-            force modernization was getting encripted radios for the troops to
-            avoid getting communications intercepted in the field, only few
-            units, which were gutted during the first weeks, were able to get
-            the new radio equipment. Due to conscripts not being allowed to be
-            used in foreign operations without a state of war declared, manpower
-            shortages started to show themselves in not so obvious ways. There 
-            were not enough troops for dismounted infantry and truck drivers. A
-            lack of infantry makes combined operations impossible, while a lack 
-            of drivers killed any consistent road logistics involving trucks. 
+            parts, etc.) to sell. Part of the force modernization was getting
+            encripted radios for the troops to avoid getting communications
+            intercepted in the field, only few units, which were gutted during
+            the first weeks, were able to get the new radio equipment. Due to
+            conscripts not being allowed to be used in foreign operations
+            without a state of war declared, manpower shortages started to show
+            themselves in not so obvious ways. There were not enough troops for
+            dismounted infantry and truck drivers. A lack of infantry makes
+            combined operations impossible, while a lack of drivers (and being
+            ambushed by Ukrainian partisans) killed any consistent road
+            logistics involving trucks. About half of the tanks Russian lost
+            were because of lack of fuel or mechanical breakdowns. 
           </p>
         </Col>
         <Col sm={12} md={6}>
