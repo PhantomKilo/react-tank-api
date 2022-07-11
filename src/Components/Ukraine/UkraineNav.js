@@ -16,7 +16,10 @@ const UkraineNav = () => {
           </Link>     
           <Link className="nav-link" to="/tank/ukraine/russian-plan">
             <span className="nav-text">Russian Plan</span>
-          </Link>     
+          </Link>  
+          <Link className="nav-link" to="/tank/ukraine/russian-plan">
+            <span className="nav-text">Russian Organization</span>
+          </Link>    
         </Nav>
       </Container>
     </Navbar>
