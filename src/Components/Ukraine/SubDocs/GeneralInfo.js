@@ -41,7 +41,7 @@ const GeneralInfo = () => {
         </Col>
       </Row>
       <Row>
-        <Col>
+        <Col sm={12} md={6}>
           <h2>Whats Next?</h2>
           <p>
             Unfortunately, there is no sign of this war ending anytime in the
@@ -56,7 +56,7 @@ const GeneralInfo = () => {
             this time.
           </p>
         </Col>
-        <Col>
+        <Col sm={12} md={6}>
           <h2>World Impact</h2>
           <p>
             Ukraine and Russia together supply more than a quarter of the worlds
