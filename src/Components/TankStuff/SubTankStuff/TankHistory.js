@@ -61,7 +61,8 @@ const TankHistory = () => {
             forward thinking, immediately seeing the future value of an armored
             weapons platform rolling down the street to smite the capitalists.
             Post civil war the next step is developing the doctrine for future
-            wars.  
+            wars. The Russians, now Soviets following the end of the civil war,
+            were the first nation to go all in on tanks post WWI.
           </p>
         </Col>
       </Row>
@@ -92,6 +93,117 @@ const TankHistory = () => {
             <Card.Text>French Renault FT</Card.Text>
           </Card>
         </Col>
+      </Row>
+      <Row>
+        <Col sm={12} md={6}>
+          <h2>Interwar Period</h2>
+          <p>
+            The post war period was filled with military thinkers trying to fit
+            the WWI experience into future war planning. Tank use was debated
+            within pretty much every circle around the world. The countries that
+            put much thought into developing this new weapon were the USSR,
+            Germany and, primarily, the UK. The UK created the experimental
+            mechanized unit, a training unit with the purpose of developing the
+            doctrinal use of mechanized doctrine using battalion and larger
+            exercises, being put up against traditional infantry or cavalry and
+            seeing how they compared. These experiences showed that
+            mechanization had a large amount of benefits, faster and requiring
+            less breaks than traditional cavalry, while still able to bring up
+            the infantry and artillery at a similar pace. Recon was faster and
+            (due to better communications) able to find and exploit the greater
+            manueverability of the vehicles to the fullest extent. Every country
+            sent observers, and all of them started their own programs to
+            mechanize their armies. The Soviets and Germans cooperated to
+            codevelop techonology and tactics together for a short period of
+            time. Both countries would take the British experience and suit it
+            to their needs. On the hardware front, tank designers tried a large
+            variety of designs, with multiple turreted land battleships to small
+            utility tracks only fitting one or two crewman. From 1919 to about
+            the mid-late 1930s were relatively peaceful, as well as a global
+            economic depression that didn't help. The Germans incorporated
+            elements of the British experience into their own doctrinal
+            development, basing it heavily on storm trooper tactics during the
+            first world war.
+          </p>
+        </Col>
+        <Col sm={12} md={6}>
+          <h2>Spanish Civil War</h2>
+          <p>
+            While most of the interwar period was peaceful, the lead up to WWII
+            saw a handful of conflicts in the late 1930s. The most "complete" of
+            the bunch was the Spanish Civil War. The war saw both Germany and
+            the USSR deploy both hardware and large support staffs to train
+            local crews in their respective doctrine and equipment sustainment.
+            This was probably the first use of modern airpower and the systems
+            around it, such as air resupply, radar and strategic bombing
+            campaigns. On the tank front, Germany sent a number of their Panzer
+            1 light tanks for Nationalist forces under Francisco Franco, as well
+            as Flak 88 anti-air guns, where they would gain the tank-killer
+            reputation. The Soviets, for their part, sent hundreds of BT and T26
+            tanks for the various Spanish Replublican forces (communists,
+            socialists, anarchists, etc.). The foreigners used this as an
+            opportunity to take notes on how to improve their equipment and
+            doctrine (the requirements for the T34 were drawn up based on Soviet
+            experience here). The shortcomings of tanks were on full display,
+            due in no small part to the lack of cohesion among Spanish forces on
+            either side. Infantry would wait for the tanks to advance before
+            moving up, leaving them on their own and vulnerable. Tank crews are
+            limited in what they can see, so this resulted in not only tank
+            losses that were unnecessary and sometimes led to larger routs.
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Card>
+            <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/d/d3/Char_de_Bataille_B1.jpg"
+              }
+            />
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/7/7e/P68l.jpg"
+              }
+            />
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Card>
+            <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/b/bb/FT-17-argonne-1918.gif"
+              }
+            />
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/b/bb/FT-17-argonne-1918.gif"
+              }
+            />
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col></Col>
+        <Col></Col>
       </Row>
     </Container>
   );
