@@ -68,7 +68,7 @@ function App() {
       <NavBar />
       <Container>
         <Routes>
-          <Route exact path="/tank/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/tank/about" element={<About />} />
           <Route
             exact

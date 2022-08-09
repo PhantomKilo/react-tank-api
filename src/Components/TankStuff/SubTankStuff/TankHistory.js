@@ -12,7 +12,7 @@ const TankHistory = () => {
         <h2>and related armored vehicles</h2>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>The Beginning</h2>
           <p>
             The first tanks were a product of World War I trench war that
@@ -43,7 +43,7 @@ const TankHistory = () => {
             service.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Russian use of Tanks</h2>
           <p>
             The Russian introduction to tanks is pretty interesting in a few
@@ -62,12 +62,18 @@ const TankHistory = () => {
             weapons platform rolling down the street to smite the capitalists.
             Post civil war the next step is developing the doctrine for future
             wars. The Russians, now Soviets following the end of the civil war,
-            were the first nation to go all in on tanks post WWI.
+            were the first nation to go all in on tanks post WWI. The main
+            insperation for Soviet tank designs was the French Renault FT tank,
+            being the first with a more traditional layout, though with only a
+            one man turret.
           </p>
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <h2>Examples of WWI tank designs</h2>
+      </Row>
+      <Row>
+        <Col md={12} lg={6}>
           <Card bg="black">
             <Card.Img
               variant="top"
@@ -76,11 +82,11 @@ const TankHistory = () => {
                 "https://upload.wikimedia.org/wikipedia/commons/c/cd/British_Mark_IV_Tadpole_tank.jpg"
               }
             />
-            <Card.Title>The first tank</Card.Title>
-            <Card.Text>British Mark IV</Card.Text>
+            <Card.Title>British Mark IV</Card.Title>
+            <Card.Text>First tank to be deployed</Card.Text>
           </Card>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <Card bg="black">
             <Card.Img
               variant="top"
@@ -89,13 +95,13 @@ const TankHistory = () => {
                 "https://upload.wikimedia.org/wikipedia/commons/b/bb/FT-17-argonne-1918.gif"
               }
             />
-            <Card.Title>The first turreted tank</Card.Title>
-            <Card.Text>French Renault FT</Card.Text>
+            <Card.Title>French Renault FT</Card.Title>
+            <Card.Text>The first tank with a turret</Card.Text>
           </Card>
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Interwar Period</h2>
           <p>
             The post war period was filled with military thinkers trying to fit
@@ -126,7 +132,7 @@ const TankHistory = () => {
             first world war.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Spanish Civil War</h2>
           <p>
             While most of the interwar period was peaceful, the lead up to WWII
@@ -154,8 +160,11 @@ const TankHistory = () => {
         </Col>
       </Row>
       <Row>
-        <Col>
-          <Card>
+        <h2>Examples of interwar tank designs</h2>
+      </Row>
+      <Row>
+        <Col md={12} lg={6}>
+          <Card bg="black">
             <Card.Img
               variant="top"
               className="img-fluid"
@@ -163,10 +172,12 @@ const TankHistory = () => {
                 "https://upload.wikimedia.org/wikipedia/commons/d/d3/Char_de_Bataille_B1.jpg"
               }
             />
+            <Card.Title>French Char B1</Card.Title>
+            <Card.Text>One of the more successful interwar designs</Card.Text>
           </Card>
         </Col>
-        <Col>
-          <Card>
+        <Col md={12} lg={6}>
+          <Card bg="black">
             <Card.Img
               variant="top"
               className="img-fluid"
@@ -174,36 +185,138 @@ const TankHistory = () => {
                 "https://upload.wikimedia.org/wikipedia/commons/7/7e/P68l.jpg"
               }
             />
+            <Card.Text>Soviet T-35</Card.Text>
+            <Card.Text>The peak of land-battleship designs</Card.Text>
           </Card>
         </Col>
       </Row>
       <Row>
-        <Col>
-          <Card>
+        <Col md={12} lg={6}>
+          <Card bg="black">
             <Card.Img
               variant="top"
               className="img-fluid"
               src={
-                "https://upload.wikimedia.org/wikipedia/commons/b/bb/FT-17-argonne-1918.gif"
+                "https://upload.wikimedia.org/wikipedia/commons/6/66/T-26_in_Kirovsk.JPG"
               }
             />
+            <Card.Title>Soviet T-26</Card.Title>
+            <Card.Text>
+              The primary Soviet tank prior to the T-34, seen action everywhere
+            </Card.Text>
           </Card>
         </Col>
-        <Col>
-          <Card>
+        <Col md={12} lg={6}>
+          <Card bg="black">
             <Card.Img
               variant="top"
               className="img-fluid"
               src={
-                "https://upload.wikimedia.org/wikipedia/commons/b/bb/FT-17-argonne-1918.gif"
+                "https://upload.wikimedia.org/wikipedia/commons/f/fa/Panzer_I_Ausf._A_at_El_Golos.jpg"
               }
             />
+            <Card.Title>German Panzer 1</Card.Title>
+            <Card.Text>
+              The first German tank to see battle in a variety of wars
+            </Card.Text>
           </Card>
         </Col>
       </Row>
       <Row>
-        <Col></Col>
-        <Col></Col>
+        <Col md={12} lg={6}>
+          <h2>Related Military Developments</h2>
+          <p>
+            Armored vehicles started to be developed prior to WWI, though only
+            armored cars and the first few tanks were really used at the time.
+            The British tried out two other concepts, self-propelled guns (SPGs)
+            and armored personnel carriers (APCs). SPGs were an effort to make
+            the very artillery guns at the time more mobile, in addition to
+            affording them sme protection. Being able to bring up artillery
+            during an offensive with less effort would save some time and
+            effort, and the armor would allow it to be used as a direct fire
+            infantry gun for clearing out emplacements. Development on APCs
+            started as a way to protect infantry during an offensive, who would
+            be following close to tanks but themselves were vulnerable to
+            machine guns and artillery. Tanks are extremely vulnerable on their
+            own, which happen when infantry either couldn't keep up or they fell
+            back to cover. APCs were supposed to fix that by keeping them safe
+            until needed just behind the main advance. Both SPGs and APCs would
+            become standard euipment over the next few decades, but during WWI
+            the technology just wasn't able to keep up with ideas. The first
+            APCs were a horrible experience for the main consumers, the
+            infantry. Being thrown around a metal box while shoulder to
+            shoulder, suffocating on fumes and rendered deaf by the noise hurts
+            their ability to perform as needed when they are needed. The first
+            SPGs were considered useful behicles, but more for moving supplies
+            than for their intended purpose. Other non-British countries would
+            also experiment with both these concepts closer to WWII when the
+            money started flowing again, but only the UK would be entirely
+            mechanized by then.
+          </p>
+        </Col>
+        <Col md={12} lg={6}>
+          <h2>How the Tank Changed Military Thinking</h2>
+          <p>
+            The tank provided something that didn't exist previously, bringing
+            firepower that was armored and mobile to the front. No longer would
+            troops have to use pure numbers and bayonets to clear positions
+            without close combat support. Faster tanks were developed to replace
+            horse cavalry, enhancing the range and speed at which battlefields
+            could be surveyed. Motorizing the infantry and artillery so they
+            could keep up allowed real time intel to be exploited much faster
+            than ever before. New military ideas involving massed breakthroughs,
+            deep pentrating attacks and mass mechanization starting dominating
+            new doctrinal development everywhere around the world. The Germans
+            adapted the storm trooper infantry tactics from the end of WWI to
+            develop the schwerpunkt concept (incorrectly refered to as
+            "Blitzkrieg") that would be debuted during the Battle of France in
+            1940. Soviet thinking involved masses of tanks with infantry riding
+            them to the battle. Some withing France were trying for a
+            professional force that was completely mechanized, complete with the
+            first fully tracked APCs, with a regular force backed FT tank
+            successors to swarm the enemy. Countries sent prototype tanks around
+            the world to fight in wars while using the experience to try out
+            different ideas. Armies were so enamored with these new toys that
+            some of the more extreme thinkers were pushing for tank and plane
+            militaries, thinking infantry would be too vulnerable, with chemical
+            weapons supposedly being the next big thing. Entire tactical plans
+            drawn up depicting a naval war on land. Most of that would calm down
+            as the 30s came to an end, where mechanized forces would start
+            looking closer to what is seen today.
+          </p>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={12} lg={6}>
+          <Card bg="black">
+          <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/5/53/British_Gun_Carrier_Mark_I_-_60_pdr.jpg"
+              }
+            />
+            <Card.Title>British Gun Carrier Mark 1</Card.Title>
+            <Card.Text>
+              The first self propelled gun
+            </Card.Text>
+          </Card>
+        </Col>
+        <Col md={12} lg={6}>
+          <Card bg="black">
+          <Card.Img
+              variant="top"
+              className="img-fluid"
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/e/e1/British_Mark_IX_Armoured_Personnel_Carrier.jpg"
+              }
+            />
+            <Card.Title>British Mark IX "Tank"</Card.Title>
+            <Card.Text>
+              The first APC
+            </Card.Text>
+          </Card>
+        </Col>
       </Row>
     </Container>
   );

@@ -8,7 +8,7 @@ const NavBar = () => {
     <Navbar className="nav-bar" bg="black" expand="md">
       <Container>
         <Navbar.Brand>
-          <Link to="/tank/home" className="nav-link" style={{textDecoration: "none"}}>
+          <Link to="/" className="nav-link" style={{textDecoration: "none"}}>
             <span className="nav-text">Tank API</span>
           </Link>
         </Navbar.Brand>
