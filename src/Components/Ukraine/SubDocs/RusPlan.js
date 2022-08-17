@@ -10,7 +10,7 @@ const RusPlan = () => {
         <h1>Russia's Strategic Goals</h1>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>What do we "Know"</h2>
           <p>
             The primary goal seemed to be regime change, with the most elite
@@ -28,7 +28,7 @@ const RusPlan = () => {
             Donbass, maybe to cripple Ukraines economic base.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Why Invade Ukraine?</h2>
           <p>
             There are probably a variety of reasons to actually lauunch an
@@ -54,7 +54,7 @@ const RusPlan = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <Card bg="black">
             <Card.Img
               variant="top"
@@ -64,7 +64,7 @@ const RusPlan = () => {
             <Card.Title>Ukrainian oil and natural gas deposits</Card.Title>
           </Card>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>The "Plan"</h2>
           <p>
             The Russian army seemed to have two main objectives, hit Kyiv asap,
@@ -86,7 +86,7 @@ const RusPlan = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>WTF happened?</h2>
           <p>
             So, as it turns out, the Russian brass decided to not inform anyone
@@ -111,7 +111,7 @@ const RusPlan = () => {
             were because of lack of fuel or mechanical breakdowns. 
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>False Assumptions</h2>
           <p>
             Something that is common in nationalistic military planning is the
@@ -131,7 +131,7 @@ const RusPlan = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <Card bg="black">
             <Card.Img
               variant="top"

@@ -12,7 +12,7 @@ const APCDetails = (props) => {
   const images = apc.images.map((image) => {
     return (
       <Col sm={6} md={4} key={image._id}>
-        <Card border="success" bg="black">
+        <Card border="white" bg="black">
           <Card.Title>{image.description}</Card.Title>
           <Card.Img variant="top" className="img-fluid" src={image.url} />
         </Card>
@@ -43,7 +43,7 @@ const APCDetails = (props) => {
             <h2>Dismount Capacity: {apc.capacity}</h2>
           </Col>
           <Col>
-            <Card border="success" bg="black">
+            <Card border="white" bg="black">
               <Card.Title>Weapons</Card.Title>
               <Card.Text>{weapons}</Card.Text>
             </Card>

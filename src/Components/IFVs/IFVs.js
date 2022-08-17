@@ -39,7 +39,7 @@ const IFVs = (props) => {
 
     return (
       <Col sm={6} md={4} lg={3} key={ifv._id}>
-        <Card border="success" bg="black" onClick={() => handleClick(ifv._id)}>
+        <Card border="white" bg="black" onClick={() => handleClick(ifv._id)}>
           <Card.Img
             variant="top"
             className="img-fluid"

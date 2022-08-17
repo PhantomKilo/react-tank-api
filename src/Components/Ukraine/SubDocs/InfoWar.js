@@ -10,7 +10,7 @@ const InfoWar = () => {
         <h1>The Information War Around Ukraine</h1>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>What is "Information Warfare"?</h2>
           <p>
             NATO defines&nbsp;
@@ -42,7 +42,7 @@ const InfoWar = () => {
             spectrum is out of scope for this place.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Why does this matter?</h2>
           <p>
             It is important to at least be aware of what goes on around a war,
@@ -73,7 +73,7 @@ const InfoWar = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Russian Information Warfare</h2>
           <p>
             The Russian government had planned on blowing through Ukraine in a
@@ -105,7 +105,7 @@ const InfoWar = () => {
             forseable future.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Ukrainian Information Warfare</h2>
           <p>
             The Ukrainians, to contrast with Russia, have been wildly successful

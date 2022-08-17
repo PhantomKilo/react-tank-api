@@ -10,7 +10,7 @@ const GeneralInfo = () => {
       <Stack gap={5}>
         <Row>
           <Col md={12} lg={6}>
-            <Card border="success" bg="black">
+            <Card border="white" bg="black">
               <Card.Title>What is an AFV?</Card.Title>
               <Card.Body>
                 <Card.Text>
@@ -29,7 +29,7 @@ const GeneralInfo = () => {
             </Card>
           </Col>
           <Col md={12} lg={6}>
-            <Card border="success" bg="black">
+            <Card border="white" bg="black">
               <Card.Title>Tank (AFV) vs IFV</Card.Title>
               <Card.Body>
                 <Card.Text>
@@ -50,7 +50,7 @@ const GeneralInfo = () => {
         </Row>
         <Row>
           <Col md={12} lg={6}>
-            <Card border="success" bg="black">
+            <Card border="white" bg="black">
               <Card.Title>IFV vs APC</Card.Title>
               <Card.Body>
                 <Card.Text>
@@ -69,7 +69,7 @@ const GeneralInfo = () => {
             </Card>
           </Col>
           <Col md={12} lg={6}>
-            <Card border="success" bg="black">
+            <Card border="white" bg="black">
               <Card.Title>Manual vs Auto Loading</Card.Title>
               <Card.Body>
                 A very intense "argument" going on in tank communities involves

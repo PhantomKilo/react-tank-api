@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import "./TankStuff.css";
 import NavBar from "./StuffNav";
 import GeneralInfo from "./SubTankStuff/GeneralInfo";
-import Loading from "./SubTankStuff/Loading";
+import Future from "./SubTankStuff/Future";
 import Gunnery from "./SubTankStuff/Gunnery";
 import TankHistory from "./SubTankStuff/TankHistory"
 import APCHistory from "./SubTankStuff/APCHistory"
@@ -15,7 +15,7 @@ const TankStuff = () => {
       <NavBar />
       <Routes>
         <Route exact path="/*" element={<GeneralInfo />} />
-        <Route exact path="/loading" element={<Loading />} />
+        <Route exact path="/future" element={<Future />} />
         <Route exact path="/gunnery" element={<Gunnery />} />
         <Route exact path="/tank-history" element={<TankHistory />} />
         <Route exact path="/apc-history" element={<APCHistory />} />

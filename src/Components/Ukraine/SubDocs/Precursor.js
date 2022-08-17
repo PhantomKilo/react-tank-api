@@ -11,7 +11,7 @@ const Precursor = () => {
         <h3>This will be longish, but it needs to be</h3>
       </Row>
       <Row>
-        <Col>
+        <Col md={12} lg={6}> 
           <h2>Background</h2>
           <p>
             The years immediately following the fall of the USSR saw a massive
@@ -26,8 +26,8 @@ const Precursor = () => {
             modernization and integration of drones to support the more
             conventional forces gave Azerbaijan the edge it needed.
           </p>
-        </Col>
-        <Col>
+        </Col> 
+        <Col md={12} lg={6}> 
           <h2>How is this war connected to Ukraine?</h2>
           <p>
             The 2020 Nagorno-Karabakh war showcased much of the technology and
@@ -41,10 +41,10 @@ const Precursor = () => {
             what happend in this war, factoring for cultural and regonal
             differences, is being repeated in Ukraine by both sides.
           </p>
-        </Col>
+        </Col> 
       </Row>
       <Row>
-        <Col>
+        <Col md={12} lg={6}> 
           <h2>Azerbaijani side</h2>
           <p>
             Following the first Nagorno-Karabakh war, which saw Azerbaijan lose
@@ -62,8 +62,8 @@ const Precursor = () => {
             piloting the TB2s) and Syrian mercenaries. Just the important base
             info at this time.
           </p>
-        </Col>
-        <Col>
+        </Col> 
+        <Col md={12} lg={6}> 
           <h2>Armenian side</h2>
           <p>
             Armenia's military was based around old Soviet doctrine and
@@ -82,18 +82,18 @@ const Precursor = () => {
             Armenian weaknesses so I will just stick with the most important
             stuff.
           </p>
-        </Col>
+        </Col> 
       </Row>
       <Row>
-        <Col>
+        <Col md={12} lg={6}> 
           <h2>Use of technology</h2>
           <p>
             The heavy use of drones by the Azerbaijani side was a major factor,
             being able to pretty much see and hit much of the Armenian forces
             before ground contact.
           </p>
-        </Col>
-        <Col>
+        </Col> 
+        <Col md={12} lg={6}> 
           <h2>Information warfare</h2>
           <p>
             Both Armenia and Azerbaijan took to social media to grab support and
@@ -105,7 +105,7 @@ const Precursor = () => {
             old soviet doctrine and unable to adapt, was left completely
             defenseless against this newish aspect of warfare. 
           </p>
-        </Col>
+        </Col> 
       </Row>
     </>
   );

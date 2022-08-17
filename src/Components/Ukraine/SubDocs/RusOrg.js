@@ -4,12 +4,13 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 
 const RusOrg = () => {
-  <Container>
+  return(
+    <Container>
     <Row>
       <h1>Force structure and doctrine of the Russian military</h1>
     </Row>
     <Row>
-      <Col sm={12} md={6}>
+      <Col md={12} lg={6}>
         <h2>Why does this matter?</h2>
         <p>
           Military strategy is built strategy. Meaning, you have to know what
@@ -32,7 +33,7 @@ const RusOrg = () => {
           simplified background that will make more sense the more you know.
         </p>
       </Col>
-      <Col sm={12} md={6}>
+      <Col md={12} lg={6}>
         <h2>The post-Soviet Russian military</h2>
         <p>
           The Russian Federation never recovered from the fall of the Soviet
@@ -58,7 +59,7 @@ const RusOrg = () => {
       </Col>
     </Row>
     <Row>
-      <Col sm={12} md={6}>
+      <Col md={12} lg={6}>
         <h2>Russia military Corruption</h2>
         <p>
           One of many elephants in the room regarding the state of the Russian
@@ -84,7 +85,7 @@ const RusOrg = () => {
           it runs much deeper.
         </p>
       </Col>
-      <Col sm={12} md={6}>
+      <Col md={12} lg={6}>
         <h2>Modernization programs</h2>
         <p>
           Following the war with Georgia in 2008 it was apparent that the
@@ -95,7 +96,8 @@ const RusOrg = () => {
         </p>
       </Col>
     </Row>
-  </Container>;
+  </Container>
+  )
 };
 
 export default RusOrg;

@@ -11,8 +11,8 @@ const NavBar = () => {
           <Link className="nav-link" to="/tank/tank-stuff">
             <span className="nav-text">General info</span>
           </Link>
-          <Link className="nav-link" to="/tank/tank-stuff/loading">
-            <span className="nav-text">Loading Debate</span>
+          <Link className="nav-link" to="/tank/tank-stuff/future">
+            <span className="nav-text">Future of Tanks</span>
           </Link>
           <Link className="nav-link" to="/tank/tank-stuff/gunnery">
             <span className="nav-text">Gunnery Jargon</span>

@@ -12,7 +12,7 @@ const TankDetails = (props) => {
   const images = tank.images.map((image) => {
     return (
       <Col sm={6} md={4} key={image._id}>
-        <Card border="success" bg="black">
+        <Card border="white" bg="black">
           <Card.Title>{image.description}</Card.Title>
           <Card.Img variant="top" className="img-fluid" src={image.url} />
         </Card>
@@ -23,7 +23,7 @@ const TankDetails = (props) => {
   const rounds = tank.ammo.map((round) => {
     return (
       <Col sm={6}>
-        <Card border="success" bg="black">
+        <Card border="white" bg="black">
           <Card.Text>
             <ul>
               <li>Designation: {round.designation}</li>
@@ -62,14 +62,14 @@ const TankDetails = (props) => {
           <Col>
             <Row>
               <Col sm={12} md={8}>
-                <Card border="success" bg="black">
+                <Card border="white" bg="black">
                   <Card.Title>Main weapon: {tank.main}</Card.Title>
                   <Card.Title>Ammo Types</Card.Title>
                   <Row>{rounds}</Row>
                 </Card>
               </Col>
               <Col sm={12} md={4}>
-                <Card border="success" bg="black">
+                <Card border="white" bg="black">
                   <Card.Title>Other Weapons</Card.Title>
                   <Card.Text>{weapons}</Card.Text>
                 </Card>

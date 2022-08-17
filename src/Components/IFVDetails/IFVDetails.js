@@ -12,7 +12,7 @@ const IFVDetails = (props) => {
   const images = ifv.images.map((image) => {
     return (
       <Col sm={6} md={4} key={image._id}>
-        <Card border="success" bg="black">
+        <Card border="white" bg="black">
           <Card.Title>{image.description}</Card.Title>
           <Card.Img variant="top" className="img-fluid" src={image.url} />
         </Card>
@@ -43,7 +43,7 @@ const IFVDetails = (props) => {
             <h2>Dismount capacity: {ifv.capacity}</h2>
           </Col>
           <Col sm={12} md={4}>
-            <Card border="success" bg="black">
+            <Card border="white" bg="black">
               <Card.Title>Main Weapon: {ifv.main}</Card.Title>
               <Card.Title>Other Weapons</Card.Title>
               <Card.Text>{weapons}</Card.Text>

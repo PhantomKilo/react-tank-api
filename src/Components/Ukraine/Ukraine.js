@@ -18,6 +18,7 @@ const Ukraine = () => {
       <Route exact path="/*" element={<GeneralInfo />} />
       <Route exact path="/nagorno-karabakh" element={<Precursor />} />
       <Route exact path="/russian-plan" element={<RusPlan />} />
+      <Route exact path="/russian-org" element={<RusOrg />} />
       <Route exact path="/information-war" element={<InfoWar />} />
     </Routes>
   </Container>

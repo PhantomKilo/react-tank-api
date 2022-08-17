@@ -8,7 +8,7 @@ const GeneralInfo = () => {
     <Container>
       <h1>2022 Russian invasion of Ukraine</h1>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>What is going on?</h2>
           <p>
             On February 24th, 2022, the Russian military launched an invasion of
@@ -23,7 +23,7 @@ const GeneralInfo = () => {
             to them will take some time, and a pinch of speculation.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>The Information War</h2>
           <p>
             Both belligerents are attempting to harness the web for propganda
@@ -41,7 +41,7 @@ const GeneralInfo = () => {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>Whats Next?</h2>
           <p>
             Unfortunately, there is no sign of this war ending anytime in the
@@ -56,7 +56,7 @@ const GeneralInfo = () => {
             this time.
           </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col md={12} lg={6}>
           <h2>World Impact</h2>
           <p>
             Ukraine and Russia together supply more than a quarter of the worlds

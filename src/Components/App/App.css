@@ -7,12 +7,20 @@
   background-color: black;
 }
 
-.nav-text, .nav-link {
-  color: #008C00;
+.nav-link {
+  border: 1px solid;
+  border-color: #fbffff;
+  margin: 0px;
+}
+
+.nav-link,
+.nav-text {
+  color: #fbffff;
   background-color: black;
 }
 
-.nav-text:hover, .nav-link:hover {
+.nav-link:hover,
+.nav-link:hover .nav-text {
   color: black;
-  background-color: #008C00;
+  background-color: #fbffff;
 }
